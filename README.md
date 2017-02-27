@@ -18,6 +18,7 @@ yarn start-pro
 ```
 
 - Gulp to add reversion hash and cdn prefix to all static assets
+- Gulp to move all static asset from `public` to `cdn` and wait for upload
 - [TODO] add cdn uploader
 
 ```
