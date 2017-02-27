@@ -1,0 +1,10 @@
+doctype html
+html
+  head
+    title= title
+    link(rel="stylesheet", href=assetPath("/css/vendor.css"))
+    link(rel="stylesheet", href=assetPath("/css/main.css"))
+  body
+    block content
+    script(src=assetPath("/js/vendor.js"))
+    script(src=assetPath("/js/app.js"))

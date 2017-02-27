@@ -1,0 +1,15 @@
+$fontSize: 18px;
+
+body {
+  width: 100%;
+  height: 100%;
+  font: $fontSize 'Source Code Pro', sans-serif;
+  transition: background .3s;
+  text-align: center;
+}
+.neko {
+  display: inline-block;
+  width: 293px;
+  height: 172px;
+  background: url('/img/neko.jpg') no-repeat;
+}
